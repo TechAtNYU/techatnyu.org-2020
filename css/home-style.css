@@ -1,0 +1,193 @@
+.yellow {background-color: #fdf9cf;}
+
+.white {background-color:#fefdf5;}
+
+.overflow {overflow: auto;}
+
+/*NAVBAR*/
+nav {position: fixed; top: 0; width: 100%; z-index: 10; background-color: #fdf9cf;}
+nav ul {list-style: none; padding:0; float: right;margin-top: 10px; margin-right: 20px;}
+nav ul li {display: inline-block; margin: 5px; color: black;}
+nav a {color: black;}
+nav a:hover{color: black;}
+
+#logo {width: 500px; margin-left: 10px; margin-bottom: 20px;}
+
+#catch-line {margin-left: 10px; letter-spacing: 1px; font-size: 1.2em;}
+
+#logo-container {padding: 5% 0 5% 10%; display: inline-block;}
+
+header {
+    background-image: url(../assets/white-wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/*Green button*/
+.green-button {
+	background-color: #93b5aa;
+	color: white;
+	width: 150px;
+	padding: 8px 0px;
+	border-radius: 5px;
+	margin: 15px 0 20px 10px; 
+    font-weight: 500;
+    border: none;
+}
+
+.green-button:hover {
+	cursor: pointer;
+}
+.green-button:active {
+	opacity: .8;
+}
+
+#blob-container {display: inline-block; float: right; margin-top: 120px;padding-top: 60px; margin-bottom: 130px;}
+
+#blob-container img {width: 650px;}
+
+#mission-text {width: 370px; font-weight: 600; position: absolute;bottom: 130px; right: 50px;}
+
+#blob-container div:first-child {position: relative;}
+
+#black-line { border: 1.5px solid black; width: 280px; position: absolute; bottom: 125px; right: 115px;}
+
+#mission-text p:first-child {
+    margin-bottom: 40px;
+}
+
+.mission-pic {
+    width: 200px;
+    height: 150px;
+    margin: 20px 0;
+}
+
+#about {text-align: center; padding-top: 50px;}
+
+#about .col-sm {padding: 20px 0;}
+
+.mission-para {width: 190px; margin: 0 auto; font-weight: 500;}
+
+#future-leaders {padding: 5% 0; width: 750px; margin: 0 auto; font-size: 3em; letter-spacing: 2px;}
+
+#events {position: relative;}
+
+#lav-rect {display: inline-block; position: relative; margin: 5%;}
+#lav-rect img:first-child {width: 500px;}
+
+#event-head {position: absolute; display: inline-block; top: 5%; right: -22%; z-index: 1;}
+#event-head h1 {font-size: 4em; letter-spacing: 5px; position: relative;}
+
+#squiggles {width: 280px; position: absolute; bottom: -80px; right: -80px;}
+
+#half-circ {position: absolute;
+    bottom: -120px;
+    left: -100px;
+    z-index: 1;
+    width: 220px;
+}
+
+#come-meet {display: inline-block; position: absolute; left: 65%; bottom: 20%;}
+#come-meet p {width: 300px; font-weight: 400;}
+#come-meet h3, #come-meet p {padding-left: 10px;}
+
+#community {overflow: hidden}
+#community h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.half-black-line {
+    border-color: black;
+    border-width: 5px;
+    width: 40%;
+    display: inline-block;
+    margin: 50px 0;
+}
+
+#community .col {text-align: center; margin: 50px 0;}
+.community-para {width: 280px; margin: 0 auto;}
+.community-para a {color: #92b5aa;}
+.community-para a:hover {color: #92b5aa;}
+
+#social { text-align: center; padding: 50px 0; background-image: url(../assets/footer.svg); background-repeat: no-repeat; background-position:top; background-size: cover; padding-top: 200px;}
+#social-icons {margin-top: 20px;}
+#social-icons img {margin: 0 10px; opacity: .7; width: 40px; height: 40px;}
+#social-icons img:hover {opacity: 1;}
+
+/*MEDIA*/
+@media (max-width: 1288px) {
+    #blob-container {
+        margin-top: -100px;
+        padding-top: 10px;
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 970px) {
+    #logo-container {padding: 5% 0; text-align: center; display: block; margin-top: 50px;}
+    #blob-container img {width: 600px;}
+    #black-line {bottom: 105px; right: 85px;}
+    #mission-text {top: 140px; right: 30px;}
+    #blob-container {margin-top: 30px; margin-bottom: 30px;}
+    #future-leaders {font-size: 2.5em; width: 650px;}
+}
+
+@media (max-width: 900px) {
+    #lav-rect img:first-child {width: 450px;}
+    #come-meet p {width: 270px;}
+}
+
+@media (max-width:770px) { 
+    .row {display: block !important;} 
+    .mission-pic {width: 150px; height: 130px;} 
+    #come-meet {display: block; position: relative; left: 0;bottom: 0; float: right; margin-right: 20px;}
+    #events {overflow: auto;}
+    #event-head {right: 0;}
+}
+
+@media (max-width: 720px){ 
+    #logo {width: 450px;}
+    #catch-line{font-size: 1.1em;}
+    #future-leaders {font-size: 2em; width: 500px;}
+}
+
+@media (max-width: 580px) {#event-head {right: 25%;}}
+
+@media (max-width: 530px) {
+    nav ul {float: none; margin-right: 0;}
+    nav{margin: 0; text-align: center;}
+    #catch-line{font-size: 1em;}
+    #blob-container {margin-bottom: 0px;}
+    #future-leaders {font-size: 1.8em; width: 100%;}
+}
+
+@media (max-width: 450px) {
+    #logo {width: 80%; margin-left: 0; padding-top: 80px;}
+    nav ul li {margin: 2px;}
+    #catch-line {margin: 0; margin-bottom: 20px; letter-spacing: 0;}
+    #logo-container button {margin-left: 0;}
+    #blob-container {width: 110%;}
+    #blob-container img {width: 100%;}
+    #mission-text p:first-child {margin-bottom: 20px;}
+    #mission-text {font-size: 14px; width: 300px; text-align: center; right: 2%;top: 32%;}
+    #black-line {width: 250px; bottom: 22%; right: 0;}
+    #future-leaders {font-size: 1.5em; padding-left: 20px; padding-right: 20px; padding-bottom: 50px;}
+    #lav-rect img:first-child {width: 330px;}
+    #come-meet {margin-top: 50px; margin-right: 10px;}
+    #lav-rect {margin-right: 0;}
+    #event-head h1 {font-size: 3.5em;}
+    #squiggles {width: 230px; bottom: -60px}
+    #half-circ {width: 200px;}
+    header nav {display: none;}
+}
+
+@media (max-width: 400px){#black-line{bottom: 16%;}}}
+
+@media (max-width: 365px) {
+    #mission-text {font-size: 12px; width: 260px;}
+}
+
+@media (max-width: 330px) {#lav-rect img:first-child {width: 300px;} #come-meet {margin-top: 100px;} #event-head h1 {font-size: 3em} #squiggles {right: -60px;}}

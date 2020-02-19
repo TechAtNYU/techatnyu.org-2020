@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href = "css/event-style.css" rel="stylesheet">
+        
+        <!--BOOTSTRAP-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <!-- Required Core Stylesheet -->
+        <link rel="stylesheet" href="css/glide.core.min.css">
+
+        <!-- Optional Theme Stylesheet -->
+        <link rel="stylesheet" href="css/glide.theme.min.css">    
+        
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    </head>
+    <body>
+        <header class= "yellow-background"> 
+            <p id = "events-head" class = "heading" data-aos="fade-right"><a href = "index.html">EVENTS</a></p>
+        </header>
+        
+        <section class= "white-background">
+            <p id = "upcoming-head" class = "heading" data-aos="fade-in" data-aos-delay="500">UPCOMING EVENTS</p>
+            <div id = "calendar" class="container"  data-aos="zoom-in" data-aos-offset="500">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23f1f5ff&amp;ctz=America%2FNew_York&amp;src=aGVsbG9AdGVjaGF0bnl1Lm9yZw&amp;color=%237986CB&amp;showTz=0&amp;showPrint=0&amp;showNav=1&amp;showTitle=0&amp;showTabs=0&amp;showCalendars=0" style="border:solid 1px #777" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </section>
+        
+        <section class= "white-background">
+            <p id = "past-head" class = "heading" data-aos="fade-in" data-aos-delay="500">PAST EVENTS</p>
+            <div id = "horizontal-carousel">
+                <div class="glide">
+                    <div id = "inner-carousel" class="glide__track" data-glide-el="track" data-aos="fade-up" data-aos-delay="700">
+                        <ul class="glide__slides">
+                            <li id = "internship" class="glide__slide">
+                                <div class="image-container">
+                                    <img class="slider-image" src = "event-images/internship.png">
+                                    <div class="overlay overlay-left">
+                                    <div class="text">
+                                        <h3><u>Landing the Internship</u></h3>
+                                        <p>Students learn the ins and outs of navigating the internship search.</p>
+                                        <a href="https://www.youtube.com/watch?v=2t3obV2ROVc" target="_blank"><img class="stream-img" src="assets/stream.png"></a>
+                                    </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id = "code" class="glide__slide">
+                                <div class="image-container">
+                                    <img class="slider-image" src = "event-images/coding.png">
+                                    <div class="overlay overlay-left">
+                                    <div class="text">
+                                        <h3><u>Coding Interview Prep</u></h3>
+                                        <p> Students learn the structure of technical coding interviews and walk through problems live.</p>
+                                        <a href="https://www.youtube.com/watch?v=zd7T5Ctfyxg" target="_blank"><img class="stream-img" src="assets/stream.png"></a>
+                                    </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id = "course" class="glide__slide">
+                                <div class="image-container">
+                                <img class="slider-image" src = "event-images/chill.png">
+                                <div class="overlay overlay-left">
+                                <div class="text">
+                                    <h3><u>Course Registration &amp; Chill</u></h3>
+                                    <p>A casual chat about what classes students should sign up for next.</p>
+                                </div>
+                                </div>
+                                </div>
+                            </li>
+                            <li id = "ux" class="glide__slide">
+                                <div class="image-container">
+                                    <img class="slider-image" src="event-images/ux-writing.png">
+                                    <div class="overlay overlay-left">
+                                        <div class="text">
+                                        <h3><u>UX Writing Workshop</u></h3>
+                                        <p>UX writer, Amelia Warren, finds the best words for your day to day applications</p>
+                                        <a href="https://www.youtube.com/watch?v=3N-47DDonpQ" target="_blank"><img class="stream-img" src="assets/stream.png"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li id = "fireside" class="glide__slide">
+                                <div class="image-container">
+                                <img class="slider-image" src="event-images/chat.png">
+                                <div class="overlay overlay-left">
+                                    <div class="text">
+                                        <h3><u>Fireside Chat</u></h3>
+                                        <p>Students learn more about how Spotify Product Manager, Nicole Bouchard, uses data to build internal tools at a leading music streaming company.</p>
+                                        <a href="https://www.facebook.com/TechatNYU/videos/504508900153569/"target="_blank"><img class="stream-img" src="assets/stream.png"></a>
+                                    </div>
+                                </div>
+                                </div>
+                            </li>
+                            <li id = "birthday" class="glide__slide">
+                                <div class="image-container">
+                                <img class="slider-image" src="event-images/birthday.png">
+                                <div class="overlay overlay-left">
+                                    <div class="text">
+                                        <h3><u>Tech@NYU Birthday</u></h3>
+                                        <p>We celebrated our <b>tenth</b> birthday.</p>
+                                        <img src="assets/party.png" width="60" alt="party">
+                                    </div>
+                                </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<" data-aos="fade-right" data-aos-delay="800">&lt;</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">" data-aos="fade-left" data-aos-delay="1200">&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id = "social" class= "white-background">
+            <h3>FOLLOW US</h3>
+            <div id = "social-icons">
+                <a href = "https://www.instagram.com/techatnyu/" target = "_blank"><img src = "assets/instagram-logo.svg" alt = "instagram logo"></a>
+                <a href = "https://www.facebook.com/TechatNYU/" target = "_blank"><img src = "assets/facebook.svg" alt = "facebook logo"></a>
+                <a href = "https://twitter.com/techatnyu" target = "_blank"><img src = "assets/twitter.svg" alt = "twitter logo"></a>
+                <a href = "https://medium.com/@TechatNYU" target = "_blank"><img src = "assets/medium.svg" alt = "medium logo"></a>
+                <a href = "https://www.youtube.com/channel/UCfnrLW1YMab6CDElGKw2aGQ" target = "_blank"><img src = "assets/youtube.svg" alt = "medium logo"></a>
+            </div>
+        </section>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        
+        <script src = "https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+        
+        <script src = "js/glider.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init();
+        </script>
+        <script src = "js/main.js"></script>
+        
+    </body>
+</html>

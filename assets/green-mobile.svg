@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="430px" height="453px" viewBox="0 0 430 453" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-99.000000, -324.000000)" fill="#84ACA0">
+            <path d="M335.894333,771 C447.144468,771 509,648.398755 509,520.268693 C509,392.138631 447.144468,307 335.894333,307 C224.644198,307 49.6064412,420.756312 134.458144,539 C191.422028,618.381078 139.236433,666.296795 180.630312,708.572208 C200.895522,729.268991 299.330261,771 335.894333,771 Z" id="Oval" transform="translate(310.500000, 539.000000) rotate(-211.000000) translate(-310.500000, -539.000000) "></path>
+        </g>
+    </g>
+</svg>

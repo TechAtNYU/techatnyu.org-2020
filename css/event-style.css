@@ -1,0 +1,89 @@
+.yellow-background {
+    background-color: #fdf9cf;
+}
+
+.white-background {
+    background-color: #fefdf5;
+}
+
+.heading {
+    letter-spacing: 8px;
+    font-size: 3em;
+}
+
+#events-head,#upcoming-head, #past-head {padding-left: 40px; margin: 0;}
+
+#events-head {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+#events-head a {color: black;}
+#events-head a:hover{color: black;}
+
+#upcoming-head {
+    padding-top: 60px;
+}
+
+/*Calendar*/
+#calendar {text-align: center; margin-top: 50px;}
+#calendar iframe {width: 95%; height: 600px;box-shadow: 8px 10px 10px #cad2e6;}
+
+#past-head {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+/*Image Carousel*/
+.slider-image {border-radius: 10px; width: 100%; height: 350px;}
+#horizontal-carousel {text-align: center; padding-bottom: 100px;}
+.glide__arrow {color: #b0a6b9 !important; top: 110% !important; font-size: 1.5em;}
+.glide__arrow:hover {border-color: #bab1c0 !important;}
+
+/*Overlay*/
+.image-container { width: 95%; display: inline-block; border-radius: 10px; position: relative; overflow: hidden;}
+
+.overlay {position: absolute; transition: all 2s ease; opacity: 0;}
+
+#code .overlay {background-color: #ff7a00;}
+#ux .overlay {background-color: #86efc4;}
+#fireside .overlay {background-color: #fbe3b7;}
+#internship .overlay {background-color: #ffb826;}
+#course .overlay {background-color: #fea8a8;}
+#birthday .overlay {background-color: black;}
+
+.text {color: white; position: absolute; top: 50%; width: 300px; left: 50%;transform: translate(-50%,-50%);}
+
+.overlay-left {height: 100%; width: 0; top: 0; left: 0; border-radius: 10px;}
+
+.image-container:hover .overlay-left {width: 100%;}
+.image-container:hover .overlay {opacity: 1;}
+
+.stream-img {width: 50px;}
+.stream-img:hover {cursor: pointer;}
+.stream-img:active {opacity: .8;}
+
+#social { text-align: center; padding: 50px 0; background-image: url(../assets/footer.svg); background-repeat: no-repeat; background-position:top; background-size: cover; padding-top: 200px;}
+#social-icons {margin-top: 20px;}
+#social-icons img {margin: 0 10px; opacity: .7; width: 40px; height: 40px;}
+#social-icons img:hover {opacity: 1;}
+
+@media (max-width: 960px) {
+    .heading{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 650px) {
+    .heading{
+        font-size: 2.2em;
+    }
+}
+
+@media (max-width: 450px) {
+    #events-head, #upcoming-head, #past-head {
+        padding-left: 0;
+        text-align: center;
+    }
+    .glide__arrows{display: none;}
+    #horizontal-carousel {padding-bottom: 30px;}
+}
