@@ -1,3 +1,8 @@
+body {
+  font-family: 'Lato', sans-serif!important;
+  font-weight: bold;
+}
+
 .yellow-background {
     background-color: #fdf9cf;
 }
@@ -38,6 +43,10 @@
 #horizontal-carousel {text-align: center; padding-bottom: 100px;}
 .glide__arrow {color: #b0a6b9 !important; top: 110% !important; font-size: 1.5em;}
 .glide__arrow:hover {border-color: #bab1c0 !important;}
+
+#past-events {
+  overflow: hidden;
+}
 
 /*Overlay*/
 .image-container { width: 95%; display: inline-block; border-radius: 10px; position: relative; overflow: hidden;}
